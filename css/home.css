@@ -1,0 +1,366 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        margin: 0;
+        height: 100%;
+        width: 100%;   
+        background: #222;
+    }
+
+    #special
+    {
+        font-family: 'Bree Serif', serif;
+        color: #e80a89;
+        margin-left: 10px;
+    }
+
+    .spCred
+    {
+       display: grid;
+       grid-template-columns: 80% 20%;
+       margin: 0;
+    }
+
+    .spImg
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    #gridSpecials
+    {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-column-gap: 70px;
+        margin-left: 25px;
+    }
+
+    #navOne
+    {
+        border: 2px solid #181818;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 100px;
+        height: 100px;
+        padding: 10px 0;
+        display: grid;
+        grid-template-rows: 60% 20%;
+        justify-items: center;
+        background: #181818;
+    }
+    
+    #navigation
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    #restaurants
+    {
+        margin-top: 30px;
+    }
+
+    .spH
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    #spHp
+    {
+        margin-left: 10px;
+    }
+
+    #navThree
+    {
+        border: 2px solid #181818;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 100px;
+        height: 100px;
+        padding: 10px 0;
+        display: grid;
+        grid-template-rows: 60% 20%;
+        justify-items: center;
+        background: #181818;
+    }
+
+    .navHeaders
+    {
+        font-family: 'Noto Serif', serif;
+        color: #fff;
+    }
+
+    .navIcons
+    {
+        height: 50px;
+        width: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #fff;
+        -moz-border-radius: 40px;
+        -webkit-border-radius: 40px;
+        border-radius: 40px;
+    }
+
+    #theFoods
+    {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 30px;
+        margin-left: 35px;
+    }
+
+   
+    #nav-key
+    {
+        display: grid;
+        grid-template-columns: 15% 15%;
+        margin-left: 80%;
+        grid-column-gap: 10px;
+    }
+
+    #menuTags
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #firstOne
+    {
+        background: url("../images/bucketChickenOne.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+    }
+
+    #secondOne
+    {
+        background: url("../images/cafe1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+    }
+
+    #thirdOne
+    {
+        background: url("../images/572cc472b1fd9_PizzaHut1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+        
+    }
+
+    .restDivs
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .footerIcons
+    {
+        height: 40px;
+        width: 40px;    
+        fill: #fff;
+        cursor: pointer;
+    }
+
+    #footer
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: #181818;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 0;   
+        position: sticky;  
+        bottom: 0;  
+        
+    }
+
+    .ftFixed
+    {
+        margin-left: 15px;
+    }
+
+    button
+    {
+        width: 150px;
+        background: linear-gradient(to right,#f05a28 0,#e80a89 100%);
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 12px 25px 11px;
+    }
+
+    .cartSize
+    {
+        fill: #fff;
+        height: 20px;
+        width: 20px;
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+
+    .toPage
+    {
+        margin-left: 35%;
+        font-family: 'Noto Serif', serif;
+        color: #181818;
+        margin-top: 20px;
+        width: 150px;
+        border: 2px solid #181818;
+        font-size: 35px;
+        padding: 12px 25px 11px;
+        background: none;
+    }
+
+
+    #mH
+    {
+        color: #fff;
+        font-size: 25px;
+        font-family: 'Bree Serif', serif;
+        margin-left: 15px;
+    }
+
+    #mA
+    {
+        color: #e80a89;
+        font-size: 25px;
+        font-family: 'Bree Serif', serif;
+        padding-left: 15px;
+        text-decoration: underline;
+    }
+
+    .fF
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    .fP
+    {
+        color: #fff;
+        font-family: 'Noto Serif', serif;
+        font-size: 20px;
+
+    }
+
+    .menuIcons
+    {
+        fill: #e80a89;
+        margin-top: 10px;
+    }
+
+    .mainIcon
+    {
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    #mainTxt
+    {
+        font-family: 'Pacifico', cursive; 
+        color: #f2f2f2;
+        float: right;
+        margin-right: 50px;
+        color: #f05a28;
+    }
+
+    #mainLogoNav
+    {
+        background: #181818;
+        padding: 5px 0;
+    }
+
+    .homeIcon
+    {
+        height: 40px;
+        width: 40px;
+        fill: #f05a28;
+    }
+
+    .mainIcon
+    {
+        margin-top: 15px;
+    }
+
+    .iconTxt
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtC
+    {
+        margin-left: 10px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtH
+    {
+        color: #f05a28;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .restIcons
+    {
+        height: 30px;
+        width: 30px;
+        fill: #f2f2f2;
+        margin-top: 50%;
+        background: #f05a28;
+        margin-left: 5px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .Icright
+    {
+        height: 30px;
+        width: 30px;
+        fill: #f2f2f2;
+        margin-top: 50%;
+        background: #f05a28;
+       margin-left: 70%;
+       -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+}
