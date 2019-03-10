@@ -106,9 +106,10 @@
 
     .footerIcons
     {
-        height: 40px;
-        width: 40px;    
+        height: 30px;
+        width: 30px;    
         fill: #181818;
+        position: sticky; 
     }
 
     #footer
@@ -117,11 +118,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         background: #fff;
         width: 100%;
-        cursor: pointer;
         padding: 10px 0;   
         position: sticky;  
-        bottom: 0;  
-        
+        bottom: 0;    
     }
 
     .ftFixed
@@ -152,8 +151,9 @@
 
     .homeIcon
     {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
         fill: #f05a28;
+        cursor: pointer; 
     }
 }

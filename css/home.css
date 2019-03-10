@@ -134,32 +134,33 @@
         grid-template-columns: 50% 50%;
     }
 
+    .mySlides 
+    {
+        display: none;
+    }
+      
+
+    .toPage:hover
+    {
+        background: #181818;
+        color: #f2f2f2;
+    }
+
     #firstOne
     {
-        background: url("../images/bucketChickenOne.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         height: 250px;
         width: 100%;
     }
 
     #secondOne
     {
-        background: url("../images/cafe1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         height: 250px;
         width: 100%;
     }
 
     #thirdOne
     {
-        background: url("../images/572cc472b1fd9_PizzaHut1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+
         height: 250px;
         width: 100%;
         
@@ -172,8 +173,8 @@
     }
     .footerIcons
     {
-        height: 40px;
-        width: 40px;    
+        height: 30px;
+        width: 30px;    
         fill: #fff;
         cursor: pointer;
     }
@@ -184,7 +185,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         background: #181818;
         width: 100%;
-        cursor: pointer;
         padding: 10px 0;   
         position: sticky;  
         bottom: 0;  
@@ -220,7 +220,6 @@
         margin-left: 35%;
         font-family: 'Noto Serif', serif;
         color: #181818;
-        margin-top: 20px;
         width: 150px;
         border: 2px solid #181818;
         font-size: 35px;
@@ -228,6 +227,39 @@
         background: none;
     }
 
+    .sdImg
+    {
+        width: 100%;
+        height: 250px;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        
+      }
+
+      
+      /* Position the "next button" to the right */
+    .next
+    {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev
+    {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+    }
 
     #mH
     {
@@ -291,8 +323,8 @@
 
     .homeIcon
     {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
         fill: #f05a28;
     }
 
@@ -363,4 +395,9 @@
         text-decoration: none;
     }
 
+    #mySlides
+    {
+        margin-top: 50px;
+    }
+    
 }

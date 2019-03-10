@@ -18,6 +18,7 @@
         height: 40px;
         width: 40px;
         fill: #fff;  
+        cursor: pointer;
     }
 
     .footerIconRest
@@ -34,7 +35,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         background: #181818;
         width: 100%;
-        cursor: pointer;
         padding: 10px 0;   
         position: sticky;  
         top: 0;  
@@ -55,15 +55,15 @@
     
     .footerIcons
     {
-        height: 40px;
-        width: 40px;    
+        height: 30px;
+        width: 30px;    
         fill: #fff;
     }
 
     .footerIconCart
     {
-        height: 40px;
-        width: 40px;    
+        height: 30px;
+        width: 30px;    
         fill: #f05a28;
     }
 
@@ -95,9 +95,10 @@
 
     .homeIcon
     {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
         fill: #fff;
+        cursor: pointer;
     }
 
     #cartH
