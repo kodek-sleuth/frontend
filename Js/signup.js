@@ -1,6 +1,7 @@
 function displayNone()
 {
     document.getElementById('feedBack').style.display='none';
+    document.getElementById('goodFeedBack').style.display='none';
 }
 
 displayNone()
@@ -136,6 +137,15 @@ function validateForm(f)
             .then((data)=> {
                 if(data.Message=='You have successfully Created a User account')
                 {
+                    document.getElementById('feedBack').style.display='none';
+                    $(function()
+                    {
+    
+                        $('#goodFeedBack').show(500);
+                        document.getElementById('goodFeedBack').innerHTML='Successfully Signed Up'
+                    }
+                    )
+                    
                     window.location='/login.html';
                 }
             })

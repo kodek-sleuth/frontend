@@ -135,10 +135,13 @@ function runEventOne(f)
                                                         {
                                                             if(orderData.Message=="You have successfully made your order.")
                                                             {
+                                                                document.getElementById('badFeedBack').style.display='none';
                                                                 $(function()
                                                                     {
+                                                            
                                                                         $('#goodFeedBack').show(500);
-                                                                        $('#badFeedBack').hide(600);
+                                                                    
+                            
                                                                     }
                                                                 )
                                                                 document.getElementById('goodFeedBack').innerHTML="Successfully Placed Order"

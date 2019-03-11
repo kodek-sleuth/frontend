@@ -95,6 +95,12 @@ function validateLoginForm(l)
             .then((data)=> {
                 if(data.Message=='You have successfully Logged In')
                 {
+                    $(function()
+                        {
+                            $('#goodFeedBack').show(500);
+                        }
+                    )
+                    document.getElementById('goodFeedBack').innerHTML='Successfully Logged In'
                     sessionStorage.setItem('Access_Token', data.Access_Token);
                     window.location='/menu.html';
                 }
